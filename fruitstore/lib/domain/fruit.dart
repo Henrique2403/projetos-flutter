@@ -1,6 +1,6 @@
 class Fruit {
   String name;
-  String price;
+  double price;
 
-  Fruit(this.name, this.price);
+  Fruit({required this.name,required this.price});
 }

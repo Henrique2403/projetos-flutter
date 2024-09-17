@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fruitstore/presentation/list_fruit.screen.dart';
+import 'package:fruitstore/screens/list_fruit.screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ListFruitScreen(),
+      home: const FruitListScreen(),
     );
   }
 }
